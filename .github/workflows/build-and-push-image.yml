@@ -27,6 +27,7 @@ jobs:
       -
         name: Build
         run: make build
+        #build
       -
         name: Archive artifacts for frpc
         uses: actions/upload-artifact@v1
